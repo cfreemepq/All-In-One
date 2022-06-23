@@ -71,7 +71,7 @@ BeGuardF.Size = UDim2.new(0, 20, 0, 10)
 BeGuardF.SizeConstraint = Enum.SizeConstraint.RelativeXX
 BeGuardF.ZIndex = 3
 BeGuardF.Font = Enum.Font.SourceSans
-BeGuardF.Text = "cs"
+BeGuardF.Text = "csh"
 BeGuardF.TextColor3 = FavoriteColor
 BeGuardF.TextSize = 25.000
 BeGuardF.TextWrapped = true
@@ -87,7 +87,7 @@ BeInmate.Position = UDim2.new(2, 0, 0, 0)
 BeInmate.Size = UDim2.new(0, 20, 0, 10)
 BeInmate.ZIndex = 3
 BeInmate.Font = Enum.Font.SourceSans
-BeInmate.Text = ""
+BeInmate.Text = "sc"
 BeInmate.TextColor3 = FavoriteColor
 BeInmate.TextSize = 25.000
 BeInmate.TextWrapped = true
@@ -119,7 +119,7 @@ BeNeutral.Position = UDim2.new(4, 0, 0, 0)
 BeNeutral.Size = UDim2.new(0, 20, 0, 10)
 BeNeutral.ZIndex = 3
 BeNeutral.Font = Enum.Font.SourceSans
-BeNeutral.Text = ""
+BeNeutral.Text = "sp"
 BeNeutral.TextColor3 = FavoriteColor
 BeNeutral.TextSize = 25.000
 BeNeutral.TextWrapped = true
@@ -143,18 +143,7 @@ BeGuard.TextWrapped = true
 BeGuard.BorderMode = "Inset"
 
 BeCriminal.MouseButton1Down:connect(function()
-	local lastPos = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
-	LCS = game.Workspace["Criminals Spawn"].SpawnLocation
-	LCS.CanCollide = false
-	LCS.Size = Vector3.new(51.05, 24.12, 54.76)
-	LCS.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-	LCS.Transparency = 1
-	wait(0.5)
-	LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-	LCS.Size = Vector3.new(6, 0.2, 6)
-	LCS.Transparency = 0
-	wait()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
+loadstring(game:HttpGet("https://github.com/cfreemepq/Roblox-Platform-Script/tree/main", true))()
 end)
 
 BeGuard.MouseButton1Down:connect(function()
