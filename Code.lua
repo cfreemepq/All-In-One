@@ -1,9 +1,9 @@
--- Gui to Lua
+-- All In One script made by casanova
 -- Version: 3.2
--- Script Created by Balaonoob
+-- Github cfreemepq
+--This script is created for Prison Life
 
-FavoriteColor = Color3.fromRGB(140, 140, 140) --(Red, Green, Blue) from 0 to 255
-
+FavoriteColor = Color3.fromRGB(140, 140, 140)
 local function getGuns()
 	--Remington870--------------------------------------------
 	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) --Remington 870
