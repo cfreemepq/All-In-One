@@ -158,7 +158,8 @@ BeCriminal.MouseButton1Down:connect(function()
 end)
 
 BeGuard.MouseButton1Down:connect(function()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cfreemepq/Roblox-Swim/main/Swim.lua", true))()
+end)
 
 BeGuardF.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cfreemepq/Roblox-Server-Crash/main/Crasher.lua", true))()
@@ -169,7 +170,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/cfreemepq/Roblox-Chat
 end)
 
 BeNeutral.MouseButton1Down:connect(function()
-	Workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cfreemepq/Roblox-Super-Punch-/main/SPunch.lua", true))()
 end)
 
 
