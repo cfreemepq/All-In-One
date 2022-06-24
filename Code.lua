@@ -145,7 +145,7 @@ BeGuard.TextWrapped = true
 BeGuard.BorderMode = "Inset"
 
 BeCriminal.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://github.com/cfreemepq/Roblox-Platform-Script/tree/main", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cfreemepq/Roblox-Platform-Script/main/Platform.lua", true))()
 end)
 
 BeGuard.MouseButton1Down:connect(function()
