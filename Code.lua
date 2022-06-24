@@ -3,6 +3,8 @@
 -- Github cfreemepq
 --This script is created for Prison Life
 
+--Fixed : Texts Size 
+
 FavoriteColor = Color3.fromRGB(140, 140, 140)
 local function getGuns()
 	--Remington870--------------------------------------------
@@ -73,7 +75,7 @@ BeGuardF.ZIndex = 3
 BeGuardF.Font = Enum.Font.SourceSans
 BeGuardF.Text = "csh"
 BeGuardF.TextColor3 = FavoriteColor
-BeGuardF.TextSize = 25.000
+BeGuardF.TextSize = 10.000
 BeGuardF.TextWrapped = true
 BeGuardF.BorderMode = "Inset"
 
@@ -89,7 +91,7 @@ BeInmate.ZIndex = 3
 BeInmate.Font = Enum.Font.SourceSans
 BeInmate.Text = "sc"
 BeInmate.TextColor3 = FavoriteColor
-BeInmate.TextSize = 25.000
+BeInmate.TextSize = 10.000
 BeInmate.TextWrapped = true
 BeInmate.BorderMode = "Inset"
 
@@ -105,7 +107,7 @@ BeCriminal.ZIndex = 3
 BeCriminal.Font = Enum.Font.SourceSans
 BeCriminal.Text = "pf"
 BeCriminal.TextColor3 = FavoriteColor
-BeCriminal.TextSize = 25.000
+BeCriminal.TextSize = 10.000
 BeCriminal.TextWrapped = true
 BeCriminal.BorderMode = "Inset"
 
@@ -121,7 +123,7 @@ BeNeutral.ZIndex = 3
 BeNeutral.Font = Enum.Font.SourceSans
 BeNeutral.Text = "sp"
 BeNeutral.TextColor3 = FavoriteColor
-BeNeutral.TextSize = 25.000
+BeNeutral.TextSize = 10.000
 BeNeutral.TextWrapped = true
 BeNeutral.BorderMode = "Inset"
 
@@ -138,7 +140,7 @@ BeGuard.ZIndex = 3
 BeGuard.Font = Enum.Font.SourceSans
 BeGuard.Text = "-"
 BeGuard.TextColor3 = FavoriteColor
-BeGuard.TextSize = 25.000
+BeGuard.TextSize = 10.000
 BeGuard.TextWrapped = true
 BeGuard.BorderMode = "Inset"
 
